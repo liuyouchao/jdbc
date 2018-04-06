@@ -23,9 +23,15 @@
     </dependency>
     <!--mysql的驱动-->
     <dependency>
-	  <groupId>MySQL</groupId>
+	  <groupId>mysql</groupId>
 	  <artifactId>mysql-connector-java</artifactId>
-	  <version>6.0.4</version>
+	  <version>5.1.46</version>
+	</dependency>
+	<dependency>
+	  <groupId>mysql</groupId>
+	  <artifactId>mysql-connector-java</artifactId>
+	  <version>5.1.46</version>
+	  <classifier>sources</classifier>
 	</dependency>
   </dependencies>
    <build>  
