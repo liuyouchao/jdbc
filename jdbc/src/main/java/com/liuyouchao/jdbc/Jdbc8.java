@@ -43,7 +43,7 @@ public class Jdbc8 {
 			System.out.println("sql = "+ps.toString());
 			ps.executeUpdate();
 			
-		} catch (Exception e) {
+ 		} catch (Exception e) {
 			
 			e.printStackTrace();
 		}finally {
