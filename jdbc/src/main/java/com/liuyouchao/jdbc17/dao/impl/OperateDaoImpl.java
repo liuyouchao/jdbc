@@ -22,7 +22,6 @@ public class OperateDaoImpl implements OperateDao{
 		PreparedStatement ps = null;
 		ResultSet re = null;
 		try {
-			Class<T>
 			con = JdbcUtils.getConnection();
 			String sql ="insert into user (name,birthday,money) values(?,?,?)";
 			ps = con.prepareStatement(sql);
